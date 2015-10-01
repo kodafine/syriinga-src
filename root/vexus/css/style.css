@@ -1,0 +1,92 @@
+
+html { 
+  background-color: #1a1a1a;
+}
+
+#graytext {
+  color: #1a1a1a;;
+  text-shadow: 0 0 8px #FFF;
+}
+
+/* 
+>be me
+>be 15
+>css
+*/
+#blutext {
+  color: deepskyblue;
+  text-shadow: 0 0 8px deepskyblue;
+}
+
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+
+#tagline {
+  color: white;
+  font-size: 16px;
+  text-shadow: 0 0 8px white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bigdatatitle {
+  background-color:rgba(0, 0, 0, 0.5);
+  padding: 5px;
+}
+
+.navbar {
+  top: 10px;
+  position: relative;
+  text-align: center;
+  background-color: #d0d0d0;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+/* unvisited link */
+a:link {
+    color: #1a1a1a;
+}
+
+/* visited link */
+a:visited {
+    color: #1a1a1a;
+}
+
+/* mouse over link */
+a:hover {
+    color: #1a1a1a;
+}
+
+/* selected link */
+a:active {
+    color: #1a1a1a;
+}
+
+video#bgvid {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background-size: cover;
+}
+
+#footerimages {
+bottom: 0px;
+position: absolute;
+}
+
+#footerrightimages {
+bottom: 0px;
+right: 30px;
+position: absolute;
+}
